@@ -42,3 +42,7 @@ See each demo's README for the exact steps.
 ## Repeatable validation
 
 See [TESTING.md](TESTING.md) for the model, simulator and emulator test commands.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
