@@ -1,0 +1,31 @@
+# ─── Secrets: real config files with API keys (NEVER commit) ──────────────────
+#     Templates (*.template) ARE tracked; the real files are not.
+**/Config.plist
+**/apikeys.properties
+**/local.properties
+*.env
+secrets.properties
+
+# ─── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+
+# ─── iOS / Xcode ─────────────────────────────────────────────────────────────
+**/xcuserdata/
+**/*.xcuserstate
+**/DerivedData/
+.build/
+.swiftpm/
+
+# ─── Android / Gradle ────────────────────────────────────────────────────────
+**/build/
+**/.gradle/
+.kotlin/
+.idea/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Python cache from the test runners
+__pycache__/
+*.pyc

@@ -1,0 +1,15 @@
+# Never commit real credentials — only Config.plist.template belongs in git.
+KoardMerchantSDK-Demo/Config.plist
+
+# Per-user Xcode state.
+KoardDemo.xcodeproj/xcuserdata/
+KoardDemo.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# macOS metadata.
+.DS_Store
+
+# Build artifacts.
+build/
+.build/
+DerivedData/

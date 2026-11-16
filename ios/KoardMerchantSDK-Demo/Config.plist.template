@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+    Demo config — ONE file, TWO env sections (UAT + PRODUCTION).
+
+    The only thing stored here is the per-env API key. Merchant code + PIN
+    are NOT stored here; you log in by typing them on the app's login screen.
+
+    HOW TO USE:
+      1. Copy this file to `Config.plist` (sibling to this template).
+         The real `Config.plist` is gitignored — never commit it.
+      2. Paste your API key under the env(s) you plan to run. Get a key from
+         the developers page of your Koard dashboard:
+             UAT         ->  https://app.uat.koard.com/developers
+             Production  ->  https://app.koard.com/developers
+      3. Pick the matching Xcode scheme — "Koard Demo (UAT)" or
+         "Koard Demo (Production)" — and Run or Archive. The scheme's build
+         configuration sets a Swift compile-time flag (KOARD_ENV_UAT /
+         KOARD_ENV_PRODUCTION) and ConfigurationManager loads the matching
+         section below. The env is baked into the binary you build.
+-->
+<plist version="1.0">
+<dict>
+    <key>UAT</key>
+    <dict>
+        <key>apiKey</key>
+        <string>YOUR_UAT_API_KEY</string>
+    </dict>
+
+    <key>PRODUCTION</key>
+    <dict>
+        <key>apiKey</key>
+        <string>YOUR_PROD_API_KEY</string>
+    </dict>
+</dict>
+</plist>

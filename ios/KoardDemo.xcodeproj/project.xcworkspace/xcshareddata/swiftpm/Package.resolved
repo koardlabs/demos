@@ -1,0 +1,15 @@
+{
+  "originHash" : "f2510350ace4c5714b715e1eacf4df02314e1d542acaf1d538f65a1d61f70362",
+  "pins" : [
+    {
+      "identity" : "koard-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/koardlabs/koard-ios.git",
+      "state" : {
+        "revision" : "6978b5e8512efd8dfe4a38b32db3c2feb696b49c",
+        "version" : "1.0.21"
+      }
+    }
+  ],
+  "version" : 3
+}

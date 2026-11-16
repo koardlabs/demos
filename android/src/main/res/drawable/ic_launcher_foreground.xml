@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Koard "K" lettermark (white on transparent, centered in adaptive icon safe zone) -->
+    <!-- Vertical stroke of K -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,28 L42,28 L42,80 L34,80 Z" />
+    <!-- Upper diagonal of K -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,54 L68,28 L78,28 L50,58 Z" />
+    <!-- Lower diagonal of K -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,55 L78,80 L68,80 L42,58 Z" />
+
+</vector>

@@ -1,0 +1,11 @@
+# Koard demo API keys.
+#
+# Copy this file to `apikeys.properties` (same directory) and paste your keys.
+# `apikeys.properties` is gitignored — never commit it.
+#
+# Get your API key from the developers page of your Koard dashboard:
+#   UAT         ->  https://app.uat.koard.com/developers
+#   Production  ->  https://app.koard.com/developers
+
+UAT_API_KEY=YOUR_UAT_API_KEY
+PROD_API_KEY=YOUR_PROD_API_KEY
