@@ -28,16 +28,16 @@ dashboard:
 | UAT         | https://app.uat.koard.com/developers |
 | Production  | https://app.koard.com/developers     |
 
-## API keys & secrets
+## API keys
 
-No credentials are committed to this repo. Each demo ships a **config
-template**; you copy it to a real (gitignored) config file and paste your own
-API key:
+Each demo reads your API key from a local config file. Copy the template and
+paste your key:
 
 - iOS: copy `Config.plist.template` → `Config.plist`
 - Android: copy `apikeys.properties.template` → `apikeys.properties`
 
-See each demo's README for the exact steps.
+Git ignores both files, so your key stays on your machine. See each demo's
+README for the exact steps.
 
 ## Repeatable validation
 
